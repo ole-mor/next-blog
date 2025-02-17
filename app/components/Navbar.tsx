@@ -11,13 +11,6 @@ const MOBILE_NAV_ITEMS = [
   { id: 4, navTitle: "contact" }
 ];
 
-const DUCK_IMG = "https://images.pexels.com/photos/1837168/pexels-photo-1837168.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
-
-interface MobileNavItem {
-  id: number;
-  navTitle: string;
-}
-
 export default function Navbar() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
