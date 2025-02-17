@@ -1,3 +1,4 @@
+// /app/components/Masonrygrid.tsx
 "use client"
 import React from 'react';
 import Image from 'next/image';
@@ -15,26 +16,26 @@ interface MasonryGalleryProps {
 }
 
 export default function MasonryGallery({ 
-  images = [
+    images = [
     [
-      { src: "/images/gallery/image.png", alt: "Gallery image 1", link: "/pages/placeholder" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", alt: "Gallery image 2", link: "/pages/placeholder" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg", alt: "Gallery image 3", link: "/pages/placeholder2" },
+        { src: "/images/gallery/image.png", alt: "My First Adventure", link: "/content/first-page" },
+        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", alt: "Learning Framer Motion", link: "/second-post" },
+        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg", alt: "Mastering Grid Layouts", link: "/third-post" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg", alt: "Gallery image 4", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg", alt: "Gallery image 5", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg", alt: "Gallery image 6", link: "/pages/placeholder2" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg", alt: "Gallery image 4", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg", alt: "Gallery image 5", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg", alt: "Gallery image 6", link: "/" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg", alt: "Gallery image 7", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg", alt: "Gallery image 8", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg", alt: "Gallery image 9", link: "/pages/placeholder2" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg", alt: "Gallery image 7", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg", alt: "Gallery image 8", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg", alt: "Gallery image 9", link: "/" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg", alt: "Gallery image 10", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", alt: "Gallery image 11", link: "/pages/placeholder2" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg", alt: "Gallery image 12", link: "/pages/placeholder2" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg", alt: "Gallery image 10", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", alt: "Gallery image 11", link: "/" },
+      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg", alt: "Gallery image 12", link: "/" },
     ],
   ] 
 }: MasonryGalleryProps) {

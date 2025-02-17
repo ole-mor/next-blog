@@ -53,7 +53,7 @@ export default function Navbar() {
             <div className="overflow-y-hidden">
             <motion.h1 variants={hideNavItemsVariant} className="font-sen text-lg grid grid-flow-col">
               <Link href="/">
-              ole . blog
+              ux . blog
               </Link>
 
             </motion.h1>
