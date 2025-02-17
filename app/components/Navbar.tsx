@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const MOBILE_NAV_ITEMS = [
   { id: 0, navTitle: "home" },
@@ -51,7 +52,10 @@ export default function Navbar() {
             {/* Logo Container */}
             <div className="overflow-y-hidden">
             <motion.h1 variants={hideNavItemsVariant} className="font-sen text-lg grid grid-flow-col">
-              blog
+              <Link href="/">
+              ole . blog
+              </Link>
+
             </motion.h1>
             </div>
 
@@ -79,7 +83,7 @@ export default function Navbar() {
                 Close
             </motion.button>
 
-            <motion.ul variants={ulVariant} className="list-none mt-10 text-white">
+            <motion.ul variants={ulVariant} className="font-sen list-none mt-10 text-white">
                 {MOBILE_NAV_ITEMS.map((navItem) => (
                 <motion.li
                     key={navItem.id}
