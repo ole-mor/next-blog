@@ -36,14 +36,14 @@ export default function Content() {
           </p>
           <h3 className="text-xl font-semibold mt-6 mb-2">Setting Up Your Environment</h3>
           <p className="mb-4">
-            Okay, so to start with we need to create the environment. To do this we're going to use
+            Okay, so to start with we need to create the environment. To do this we&apos;re going to use
             an Integrated Developmnet Environment, or IDE for short. There are many different ones, 
             if you go to the <a href="https://survey.stackoverflow.co/2024/technology/">stack overflow developer survey</a>
             and scroll down, you will see the section integrated development environment. You will see 
             that on the top is visual studio code (VScode). This is an IDE and maintained by microsoft. For web-development
             I personally think that VScode is the best. Visual Studio is the industry standard for programming C++
-            which has been the most used language in industry. PyCharm, well I personally don't see the point in it.
-            If you're new to IDEs I would stay as far away from Vim and Neovim as possible, these are for 10x
+            which has been the most used language in industry. PyCharm, well I personally don&apos;t see the point in it.
+            If you&apos;re new to IDEs I would stay as far away from Vim and Neovim as possible, these are for 10x
             developers that have 200wpm, exclusively. Let&apos;s just use VScode. 
           </p>
           <p className="mb-4">
@@ -58,12 +58,12 @@ export default function Content() {
             NPM: Go [<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">HERE</a>].
             BUN: Go [<a href="https://bun.sh/">HERE</a>].
 
-            Once you have your environment ready. We're ready to move to the next part.
+            Once you have your environment ready. We&apos;re ready to move to the next part.
 
           </p>
-          <p className="mb-4">Oh why do we need npm? We don't if we just wanna use html, css and js, but in order to use the nextjs framework 
-            we do have to use these tools. I&apos;ve created a bunch of regular web applications using this "oldschool" approach, and 
-            the main problem is that especially if you're in the early stages of just wanting to experiment, you will stumble upon problems
+          <p className="mb-4">Oh why do we need npm? We don&apos;t if we just wanna use html, css and js, but in order to use the nextjs framework 
+            we do have to use these tools. I&apos;ve created a bunch of regular web applications using this &quot;oldschool&quot; approach, and 
+            the main problem is that especially if you&apos;re in the early stages of just wanting to experiment, you will stumble upon problems
             that are already solved in the industry. There is nothing stopping you from just using htmx and go or wasm through rocket or whatever, but the web is a shitshow anyways
             so why bother. Most browsers are just chromium wrappers, and we know from history that google 
             have no idea what they are doing.</p>
@@ -99,10 +99,10 @@ export default function Content() {
           <p className="my-4">Why did I tell you to do this? It is good to know how to use the terminal.</p>
           <p className="mb-4">After having finished creating myproject again, do <code>cd myproject </code></p>
 
-          <p className="mb-4">If you're using windows, you can skip this part. So before we start programming, you should set up one final thing. Here, I want you to just tunnel vision and just look
+          <p className="mb-4">If you&apos;re using windows, you can skip this part. So before we start programming, you should set up one final thing. Here, I want you to just tunnel vision and just look
             at what I am telling you. The VScode IDE is kind of bloated and you don&apos;t need to know everything (I certaintly don&apos;t).
             Press Ctrl+Shift+P to open the command palette
-            Type <code>shell command</code> and select "Shell Command: Install 'code' command in PATH"
+            Type <code>shell command</code> and select &quot;Shell Command: Install &apos;code&apos; command in PATH&quot;
           </p>
 
           <p className="mb-4">[Continue] Go back into the terminal and type <code>code .</code>
