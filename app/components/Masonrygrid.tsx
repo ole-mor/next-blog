@@ -18,17 +18,17 @@ interface MasonryGalleryProps {
 export default function MasonryGallery({ 
     images = [
     [
-        { src: "/images/gallery/image.png", alt: "My First Adventure", link: "/content/first-page" },
-        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", alt: "Learning Framer Motion", link: "/second-post" },
+        { src: "/images/gallery/image2.png", alt: "Studying in Oslo in 2025", link: "/content/first-page" },
+        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", alt: "Learning Framer Motion", link: "/content/second-post" },
         { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg", alt: "Mastering Grid Layouts", link: "/third-post" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg", alt: "Gallery image 4", link: "/" },
+      { src: "/images/gallery/image4.png", alt: "Gallery image 4", link: "/" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg", alt: "Gallery image 5", link: "/" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg", alt: "Gallery image 6", link: "/" },
+      { src: "/images/gallery/image5.png", alt: "Gallery image 6", link: "/content/my-nextjs-workflow" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg", alt: "Gallery image 7", link: "/" },
+      { src: "/images/gallery/image3.png", alt: "Gallery image 7", link: "/" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg", alt: "Gallery image 8", link: "/" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg", alt: "Gallery image 9", link: "/" },
     ],

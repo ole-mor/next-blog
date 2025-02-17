@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sen.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${sen.variable} ${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>
