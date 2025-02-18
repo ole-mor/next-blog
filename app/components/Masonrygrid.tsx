@@ -18,24 +18,23 @@ interface MasonryGalleryProps {
 export default function MasonryGallery({ 
     images = [
     [
-        { src: "/images/gallery/image2.png", alt: "Studying in Oslo in 2025", link: "/content/first-page" },
-        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", alt: "Learning Framer Motion", link: "/content/second-post" },
-        { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg", alt: "Mastering Grid Layouts", link: "/third-post" },
+        { src: "/images/gallery/image.png", alt: "Intro", link: "/content/intro-ux-blog" },
+        { src: "/images/gallery/image9.png", alt: "Learning Framer Motion", link: "/content/multimodal-interaction" },
     ],
     [
-      { src: "/images/gallery/image4.png", alt: "Gallery image 4", link: "/" },
+      { src: "/images/gallery/image2.png", alt: "Gallery image 4", link: "/" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg", alt: "Gallery image 5", link: "/" },
       { src: "/images/gallery/image5.png", alt: "Gallery image 6", link: "/content/my-nextjs-workflow" },
     ],
     [
       { src: "/images/gallery/image3.png", alt: "Gallery image 7", link: "/" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg", alt: "Gallery image 8", link: "/" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg", alt: "Gallery image 9", link: "/" },
+      { src: "/images/gallery/image7.png", alt: "Gallery image 8", link: "/" },
+      { src: "/images/gallery/image8.png", alt: "Gallery image 9", link: "/" },
     ],
     [
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg", alt: "Gallery image 10", link: "/" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", alt: "Gallery image 11", link: "/" },
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg", alt: "Gallery image 12", link: "/" },
+      { src: "/images/gallery/image6.jpg", alt: "Gallery image 12", link: "/" },
     ],
   ] 
 }: MasonryGalleryProps) {
