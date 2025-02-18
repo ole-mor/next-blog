@@ -15,6 +15,21 @@ export default function Content() {
           </ul>
           <p className="mb-4">
           </p>
+          <h2 className="text-xl font-bold mb-4">Systematic review of multimodal HCI</h2>
+          <p className="mb-4">
+            The Article in short tries to suggest that future work should be mixing haptic feedback and Virtual reality together.
+            The study wend through various fields such as Data/concept Visualization, Education, Medicine, Surgery, Training, Rehabilitation 
+            Dentistry, Physics, UX, Transportation, Cultural Heritage and Industry. 
+          </p>
+          <p className="mb-4">
+            In the study there were several important things to note about the modal interactions themselves. 
+          </p>
+          <ul className="mb-4">
+            <li>- Displays are Haptic, VR, AR</li>
+            <li>- Interactions are Audio, Gizmo, Tracking or vibration.</li>
+            <li>- Tracking happens by analysing Hand movements, body movements, eye movements, object movements or head movements.</li>
+          </ul>
+
       </article>
   );
 }
