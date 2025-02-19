@@ -6,9 +6,7 @@ import Link from "next/link";
 
 const MOBILE_NAV_ITEMS = [
   { id: 0, navTitle: "home" },
-  { id: 1, navTitle: "showreel" },
-  { id: 2, navTitle: "services" },
-  { id: 3, navTitle: "about" },
+  { id: 3, navTitle: "about me" },
   { id: 4, navTitle: "contact" }
 ];
 

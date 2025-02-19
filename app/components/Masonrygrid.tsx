@@ -32,7 +32,7 @@ export default function MasonryGallery({
       { src: "/images/gallery/image8.png", alt: "Gallery image 9", link: "/" },
     ],
     [
-      { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg", alt: "Gallery image 10", link: "/" },
+      { src: "/images/gallery/image10.png", alt: "Gallery image 10", link: "/content/deploying-sites" },
       { src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", alt: "Gallery image 11", link: "/" },
       { src: "/images/gallery/image6.jpg", alt: "Gallery image 12", link: "/" },
     ],

@@ -112,8 +112,15 @@ export default function Content() {
 
           <h2 className="text-2xl font-semibold mt-6 mb-2">Step 2: Creating Pages</h2>
           <p className="mb-4">
-              Next.js uses a file-based routing system. To create a new page, simply add a new file in the <code className="font-mono">pages</code> directory. For example, creating a file named <code className="font-mono">about.tsx</code> will automatically create a route at <code className="font-mono">/about</code>.
+            In your terminal, you should now create the node or bun runtime. You acchieve this by doing <code>npm run dev</code> or <code>bun run dev</code>
+            Setting up the server can take some time based on your system. As the server starts running, you can now open your browser and type in <a href="https://localhost:3000">localhost:3000</a>. 
+            This will take you to the nextjs start page.
           </p>
+          <h3 className="text-xl font-semibold mt-6 mb-2">Simplifying the process going forward</h3>
+          <p className="mb-4">
+            In the next few steps we&apos;re going to remove the basic user interface and then add some important parts to the program. 
+          </p>
+
           <h2 className="text-2xl font-semibold mt-6 mb-2">Step 3: Adding Components</h2>
           <p className="mb-4">
               You can create reusable components in your application by creating a <code className="font-mono">components</code> directory. For instance, you can create a <code className="font-mono">Header</code> component that can be used across multiple pages.
