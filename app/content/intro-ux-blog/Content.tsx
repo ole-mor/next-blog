@@ -10,7 +10,7 @@ export default function Content() {
             both build projects and think critically about our work. 
 
           </p>
-          <h2 className="text-2xl font-semibold mt-6 mb-2">Step 1: Setting Up Your Project</h2>
+          <h2 className="text-2xl font-semibold mt-6 mb-2"></h2>
           <p className="mb-4">
           </p>
       </article>
