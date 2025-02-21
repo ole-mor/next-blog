@@ -39,8 +39,8 @@ export default function Content() {
           </ul>
           <p className="mb-4">
             The coneptual idea of the paper, is pretty straight forward, and are related to their research questions. To understand the semantics of the paper,
-            we need to define the ideas of type and domain. <b>Type</b> is literally a synonym here the factors stated above ei. "type of interaction". Largely speaking, we can
-            consolidate this into <i>technologies</i>. Further, we're looking at temporal adjustments - in different <i>industries</i>, or <b>domains</b>.
+            we need to define the ideas of type and domain. <b>Type</b> is literally a synonym here the factors stated above ei. &quot;type of interaction&quot;. Largely speaking, we can
+            consolidate this into <i>technologies</i>. Further, we&apos;re looking at temporal adjustments - in different <i>industries</i>, or <b>domains</b>.
             The two final research questions are about research, and the research field.
           </p>
           <p className="mb-4">
@@ -48,7 +48,7 @@ export default function Content() {
           </p>
           <ul className="list-disc ml-10">
             <li>The clusters, which they found are low density, meaning we need to be aware of the validity</li>
-            <li>They tried to figure out if industries and interaction types were good metrics, so the data actually can't validate the technological applications like what VR headset was used, or what haptic system.</li>
+            <li>They tried to figure out if industries and interaction types were good metrics, so the data actually can&apos;t validate the technological applications like what VR headset was used, or what haptic system.</li>
             <li>Training in any specific technology is not a part of the metric. Maybe the culture of a particular industry resists integration?</li>
           </ul>
           <p className="my-4">
