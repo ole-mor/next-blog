@@ -14,7 +14,7 @@ export default function Greeting() {
     const [animationState, setAnimationState] = useState("exiting"); // New state
   
     useEffect(() => {
-      let timeoutId: any;
+      let timeoutId: ReturnType<typeof setTimeout>;
   
       if (animationState === "exiting") {
         timeoutId = setTimeout(() => {

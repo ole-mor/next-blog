@@ -22,9 +22,9 @@ export default function Navbar() {
     setNavOpen((prev) => !prev);
   };
 
-  const toggleLanguage = () => {
+/*   const toggleLanguage = () => {
     setLanguage(language === 'NO' ? 'EN' : 'NO');
-  };
+  }; */
   
   const hideNavItemsVariant = {
     opened: { opacity: 0, y: "-100%", transition: { duration: 0.5, ease: "easeInOut" } },
