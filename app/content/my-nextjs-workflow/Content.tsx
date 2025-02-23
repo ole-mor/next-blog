@@ -1,7 +1,7 @@
 // /content/my-nextjs-workflow.tsx
 export default function Content() {
   return (
-      <article className="prose lg:prose-xl mx-auto p-6 bg-white rounded-lg w-[50vw]">
+      <article className="prose lg:prose-xl mx-auto p-6 bg-white rounded-lg w-[92vw] md:w-[50vw]">
           <h1 className="text-3xl font-bold mb-4">Nextjs: From zero to hero💪</h1>
           <div className="border-4 px-4 pb-6">
           <h4 className="text-lg font-semibold mt-4">TL:DR</h4>

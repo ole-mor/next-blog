@@ -70,7 +70,7 @@ export default function MasonryGallery({
     ],
     [
       new ImageItem("/images/gallery/image10.png", "Gallery image 10", "/content/deploying-sites", { y: 20, opacity: 0 }, { y: 0, opacity: 1, transition: { duration: 0.5, ease: "backOut" } }), // Different styles
-      new ImageItem("https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", "Gallery image 11", "/", { rotate: 45, opacity: 0.7 }, { rotate: 0, opacity: 1, transition: { duration: 0.3, ease: "easeInOut" } }), // Different styles
+      new ImageItem("https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg", "Gallery image 11", "/", { rotate: 0, opacity: 0.7 }, { rotate: 0, opacity: 1, transition: { duration: 0.3, ease: "easeInOut" } }), // Different styles
       new ImageItem("/images/gallery/image6.jpg", "Gallery image 12", "/", { scale: 1.1, opacity: 0.3 }, { scale: 1, opacity: 1, transition: { duration: 0.2, ease: "easeOut" } }), // Different styles
     ],
   ],
