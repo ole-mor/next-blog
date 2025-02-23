@@ -47,12 +47,12 @@ export default function Greeting() {
     };
   
     return (
-      <div className="text-left">
+      <div className="text-left h-[120px]">
         <AnimatePresence>
           {animationState === "entering" && ( // Conditionally render
             <motion.h1
               key={currentGreeting}
-              className="text-5xl font-bold mb-4 inline-block"
+              className="text-5xl font-bold inline-block"
               variants={variants}
               initial="exit"
               animate="enter"
